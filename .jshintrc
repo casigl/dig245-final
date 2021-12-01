@@ -7,6 +7,6 @@
 	"undef": true,
 	"unused": true,
 	"globals": {
-		"$": false
+		"$": false, "dream_dict": false
 	}
 }
