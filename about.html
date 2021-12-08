@@ -116,7 +116,7 @@ new TypeIt("#mod", {
   await new Promise((resolve, reject) => {
     setTimeout(() => {
       var paragraph = document.getElementById("mod");
-      paragraph.innerHTML += "<br><br>"+text;
+      paragraph.innerHTML += "<br><br>"+text+"<br>";
       return resolve();
     }, 1000);
   });
